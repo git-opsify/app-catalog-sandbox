@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  kyverno-policies-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.1.tgz-meta/main.yaml
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-06-21T09:46:24.312628559Z"
+    description: A Helm chart for Kyverno policies
+    digest: 46ff31073b214fe0d9fb092e1d6082fd66bea9a5ff0227cc46cfc012c8fa563f
+    name: kyverno-policies-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-06-21T09:46:24.312260376Z"
