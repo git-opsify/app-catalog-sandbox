@@ -5,7 +5,7 @@ pages:
   script:
     - mv index.yaml public/
     - mv *.tgz public/
-    - mv -R *.tgz-meta/ public/
+    - mv -r *.tgz-meta/ public/
   artifacts:
     paths:
       - public
