@@ -1,0 +1,10 @@
+pages:
+  before_script:
+    - echo "Prepare deployment to ${CI_PAGES_URL}"
+    - mkdir public
+  script:
+    - mv index.yaml public/
+    - mv *.tgz public/
+  artifacts:
+    paths:
+      - public
