@@ -5,7 +5,7 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.4.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2022-08-16T13:59:49.546465872Z"
+    created: "2022-08-16T14:02:04.388498614Z"
     description: A Helm chart for Kyverno policies
     digest: 58a13187452b085f67a013fd80ea8a0d5297acfdcf9eed4e8358c9c2e52999c0
     name: kyverno-policies-app
@@ -17,7 +17,7 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.3.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-08-16T13:59:49.546309823Z"
+    created: "2022-08-16T14:02:04.388306653Z"
     description: A Helm chart for Kyverno policies
     digest: a8ef925a959a259d28bc424d376c311c785a3bdbaf8f8c541704b7cc56c2608f
     name: kyverno-policies-app
@@ -27,7 +27,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-08-16T13:59:49.54613719Z"
+    created: "2022-08-16T14:02:04.388085587Z"
     description: A Helm chart for Kyverno policies
     digest: 2a5c3950e1d69260c08bd31dc195e19a26ef964085eba5df2cd8cd0f26e99e17
     name: kyverno-policies-app
@@ -37,7 +37,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-08-16T13:59:49.545973964Z"
+    created: "2022-08-16T14:02:04.387334127Z"
     description: A Helm chart for Kyverno policies
     digest: d2803d2a52e78f6af1566b5d7985b2e332d27e64d0bab66396c3d3c5c037d11d
     name: kyverno-policies-app
@@ -50,12 +50,12 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-16T13:59:49.546846005Z"
+    created: "2022-08-16T14:02:04.388877583Z"
     description: A Helm chart for Kubernetes
-    digest: 6160a2bfc14aea9238a18bff31fbe17786a30ea92ae27a6dca68b23fd1942dc9
+    digest: f6e4b2ac7215ac744b7acf8d7260520009de06c6fea504755d6c2a296ab617b6
     name: onboarding-operator-app
     type: application
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-16T13:59:49.545658978Z"
+generated: "2022-08-16T14:02:04.387009398Z"
