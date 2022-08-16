@@ -2,5 +2,5 @@ annotations:
   application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz-meta/main.yaml
 chartApiVersion: v2
 chartFile: onboarding-operator-app-0.1.0.tgz
-dateCreated: '2022-08-16T13:54:18.248817'
-digest: 082589497b70010f7e28bafa44ccd5fe6d2d1adfd4c4c6aa4f2f7a8b766278e5
+dateCreated: '2022-08-16T13:59:13.190800'
+digest: 6160a2bfc14aea9238a18bff31fbe17786a30ea92ae27a6dca68b23fd1942dc9
