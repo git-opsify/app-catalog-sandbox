@@ -5,7 +5,7 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.4.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2022-08-17T12:57:36.647836458Z"
+    created: "2022-08-17T13:07:26.339383073Z"
     description: A Helm chart for Kyverno policies
     digest: 58a13187452b085f67a013fd80ea8a0d5297acfdcf9eed4e8358c9c2e52999c0
     name: kyverno-policies-app
@@ -17,7 +17,7 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.3.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-08-17T12:57:36.647649893Z"
+    created: "2022-08-17T13:07:26.339221038Z"
     description: A Helm chart for Kyverno policies
     digest: a8ef925a959a259d28bc424d376c311c785a3bdbaf8f8c541704b7cc56c2608f
     name: kyverno-policies-app
@@ -27,7 +27,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-08-17T12:57:36.647463474Z"
+    created: "2022-08-17T13:07:26.339048854Z"
     description: A Helm chart for Kyverno policies
     digest: 2a5c3950e1d69260c08bd31dc195e19a26ef964085eba5df2cd8cd0f26e99e17
     name: kyverno-policies-app
@@ -37,7 +37,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-08-17T12:57:36.647288584Z"
+    created: "2022-08-17T13:07:26.338888494Z"
     description: A Helm chart for Kyverno policies
     digest: d2803d2a52e78f6af1566b5d7985b2e332d27e64d0bab66396c3d3c5c037d11d
     name: kyverno-policies-app
@@ -47,8 +47,18 @@ entries:
     version: 0.0.1
   onboarding-operator-app:
   - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-08-17T13:07:26.340059949Z"
+    description: A Helm chart for Kubernetes
+    digest: 1c3d212ac44368a68e51591c6bad0532890fa346f59f90cfab228ec4535e6450
+    name: onboarding-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-08-17T12:57:36.648188918Z"
+    created: "2022-08-17T13:07:26.339733532Z"
     description: A Helm chart for Kubernetes
     digest: fbd9638f8f9901992e6c91ef48c02cdb1d6ad61b0100428d7004c751aa14dca9
     name: onboarding-operator-app
@@ -56,4 +66,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-17T12:57:36.646977505Z"
+generated: "2022-08-17T13:07:26.33806114Z"
