@@ -3,7 +3,7 @@ entries:
   argo-cd-app:
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2022-08-25T12:39:58.596717618Z"
+    created: "2022-08-25T13:43:45.816264193Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -22,9 +22,9 @@ entries:
   authn-authz-operator-app:
   - apiVersion: v2
     appVersion: feat-add-helm-chart
-    created: "2022-08-25T12:39:58.597076892Z"
+    created: "2022-08-25T13:43:45.816628563Z"
     description: A Helm chart for Kubernetes
-    digest: 0524f850bc8f09c20b987ed48046644432d6d76a820cb679b5998cb488e84740
+    digest: 3bcac21669c312c56b08d0b82f7fae660d2187ff041dcaaac2141b5f2132465b
     name: authn-authz-operator-app
     type: application
     urls:
@@ -35,7 +35,7 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.4.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2022-08-25T12:39:58.597656733Z"
+    created: "2022-08-25T13:43:45.81734454Z"
     description: A Helm chart for Kyverno policies
     digest: 58a13187452b085f67a013fd80ea8a0d5297acfdcf9eed4e8358c9c2e52999c0
     name: kyverno-policies-app
@@ -45,7 +45,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-08-25T12:39:58.59749853Z"
+    created: "2022-08-25T13:43:45.817156509Z"
     description: A Helm chart for Kyverno policies
     digest: 8e9319f9af80e8ef414538f2cf8a8488d1d4f347086589defbd95fad4df9858a
     name: kyverno-policies-app
@@ -55,7 +55,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-08-25T12:39:58.597367266Z"
+    created: "2022-08-25T13:43:45.816988057Z"
     description: A Helm chart for Kyverno policies
     digest: 2a5c3950e1d69260c08bd31dc195e19a26ef964085eba5df2cd8cd0f26e99e17
     name: kyverno-policies-app
@@ -65,7 +65,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-08-25T12:39:58.597222892Z"
+    created: "2022-08-25T13:43:45.816782279Z"
     description: A Helm chart for Kyverno policies
     digest: d2803d2a52e78f6af1566b5d7985b2e332d27e64d0bab66396c3d3c5c037d11d
     name: kyverno-policies-app
@@ -76,7 +76,7 @@ entries:
   onboarding-operator-app:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-25T12:39:58.598563158Z"
+    created: "2022-08-25T13:43:45.818425738Z"
     description: A Helm chart for Kubernetes
     digest: 3a16dbce65d60979397c4c19e1665aed212c88b4890095aeeacf8e714585eee0
     name: onboarding-operator-app
@@ -86,7 +86,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-25T12:39:58.598269469Z"
+    created: "2022-08-25T13:43:45.818078304Z"
     description: A Helm chart for Kubernetes
     digest: 1c3d212ac44368a68e51591c6bad0532890fa346f59f90cfab228ec4535e6450
     name: onboarding-operator-app
@@ -96,7 +96,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-08-25T12:39:58.597957698Z"
+    created: "2022-08-25T13:43:45.817707493Z"
     description: A Helm chart for Kubernetes
     digest: fbd9638f8f9901992e6c91ef48c02cdb1d6ad61b0100428d7004c751aa14dca9
     name: onboarding-operator-app
@@ -104,4 +104,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-25T12:39:58.588420282Z"
+generated: "2022-08-25T13:43:45.80633763Z"
