@@ -3,7 +3,7 @@ entries:
   argo-cd-app:
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2022-09-05T08:54:37.585551361Z"
+    created: "2022-09-05T14:25:24.00017279Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -22,7 +22,7 @@ entries:
   authn-authz-operator-app:
   - apiVersion: v2
     appVersion: feat-read-secret-from-file
-    created: "2022-09-05T08:54:37.586275342Z"
+    created: "2022-09-05T14:25:24.000883801Z"
     description: A Helm chart for Kubernetes
     digest: f6285ede6d4b75a6770b30889de1d534983cf5ff0c6363a2a4e35639f71636ec
     name: authn-authz-operator-app
@@ -32,7 +32,7 @@ entries:
     version: 0.1.0-feat-read-secret-from-file
   - apiVersion: v2
     appVersion: feat-add-helm-chart
-    created: "2022-09-05T08:54:37.585925163Z"
+    created: "2022-09-05T14:25:24.000540161Z"
     description: A Helm chart for Kubernetes
     digest: 23f1dd5cbf0420e43e58cfae39980a62ade4f7e91fa1998cb4805e8fdad8721e
     name: authn-authz-operator-app
@@ -45,7 +45,7 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.4.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2022-09-05T08:54:37.586887314Z"
+    created: "2022-09-05T14:25:24.001497291Z"
     description: A Helm chart for Kyverno policies
     digest: 58a13187452b085f67a013fd80ea8a0d5297acfdcf9eed4e8358c9c2e52999c0
     name: kyverno-policies-app
@@ -55,7 +55,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-09-05T08:54:37.586728494Z"
+    created: "2022-09-05T14:25:24.001329276Z"
     description: A Helm chart for Kyverno policies
     digest: 8e9319f9af80e8ef414538f2cf8a8488d1d4f347086589defbd95fad4df9858a
     name: kyverno-policies-app
@@ -65,7 +65,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-09-05T08:54:37.586580772Z"
+    created: "2022-09-05T14:25:24.001186544Z"
     description: A Helm chart for Kyverno policies
     digest: 2a5c3950e1d69260c08bd31dc195e19a26ef964085eba5df2cd8cd0f26e99e17
     name: kyverno-policies-app
@@ -75,7 +75,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-09-05T08:54:37.586431512Z"
+    created: "2022-09-05T14:25:24.001036414Z"
     description: A Helm chart for Kyverno policies
     digest: d2803d2a52e78f6af1566b5d7985b2e332d27e64d0bab66396c3d3c5c037d11d
     name: kyverno-policies-app
@@ -86,7 +86,17 @@ entries:
   onboarding-operator-app:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-05T08:54:37.587854265Z"
+    created: "2022-09-05T14:25:24.002859539Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 3230cd379e79350a3f7eac6dd049f0976d1bcabb9a065fdafb6e4edb478e7da9
+    name: onboarding-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-09-05T14:25:24.002549485Z"
     description: A Helm chart for Kubernetes
     digest: 3a16dbce65d60979397c4c19e1665aed212c88b4890095aeeacf8e714585eee0
     name: onboarding-operator-app
@@ -96,7 +106,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-05T08:54:37.587540368Z"
+    created: "2022-09-05T14:25:24.002229626Z"
     description: A Helm chart for Kubernetes
     digest: 1c3d212ac44368a68e51591c6bad0532890fa346f59f90cfab228ec4535e6450
     name: onboarding-operator-app
@@ -106,7 +116,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-09-05T08:54:37.587203801Z"
+    created: "2022-09-05T14:25:24.001868287Z"
     description: A Helm chart for Kubernetes
     digest: fbd9638f8f9901992e6c91ef48c02cdb1d6ad61b0100428d7004c751aa14dca9
     name: onboarding-operator-app
@@ -114,4 +124,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-05T08:54:37.577647287Z"
+generated: "2022-09-05T14:25:23.991934938Z"
