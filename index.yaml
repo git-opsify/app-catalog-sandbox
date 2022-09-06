@@ -21,6 +21,16 @@ entries:
     version: 0.1.0
   authn-authz-operator-app:
   - apiVersion: v2
+    appVersion: test
+    created: "2022-09-06T09:56:05.01619615Z"
+    description: A Helm chart for Kubernetes
+    digest: 48ec34574b0f6421c2c670fbd2d7321a47a4e7094635232393c6bbebca99c17b
+    name: authn-authz-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/authn-authz-operator-app-0.1.0-test.tgz
+    version: 0.1.0-test
+  - apiVersion: v2
     appVersion: feat-read-secret-from-file
     created: "2022-09-06T10:03:46.2656634+02:00"
     description: A Helm chart for Kubernetes
@@ -161,4 +171,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-06T10:03:46.2585105+02:00"
+generated: "2022-09-06T09:56:05.015661553Z"
