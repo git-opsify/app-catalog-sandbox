@@ -3,7 +3,7 @@ entries:
   argo-cd-app:
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2022-09-05T15:14:57.027695963Z"
+    created: "2022-09-06T10:03:46.2651201+02:00"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -22,7 +22,7 @@ entries:
   authn-authz-operator-app:
   - apiVersion: v2
     appVersion: feat-read-secret-from-file
-    created: "2022-09-05T15:14:57.028422012Z"
+    created: "2022-09-06T10:03:46.2656634+02:00"
     description: A Helm chart for Kubernetes
     digest: f6285ede6d4b75a6770b30889de1d534983cf5ff0c6363a2a4e35639f71636ec
     name: authn-authz-operator-app
@@ -32,7 +32,7 @@ entries:
     version: 0.1.0-feat-read-secret-from-file
   - apiVersion: v2
     appVersion: feat-add-helm-chart
-    created: "2022-09-05T15:14:57.02805095Z"
+    created: "2022-09-06T10:03:46.2656634+02:00"
     description: A Helm chart for Kubernetes
     digest: 23f1dd5cbf0420e43e58cfae39980a62ade4f7e91fa1998cb4805e8fdad8721e
     name: authn-authz-operator-app
@@ -40,12 +40,39 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/authn-authz-operator-app-0.1.0-feat-add-helm-chart.tgz
     version: 0.1.0-feat-add-helm-chart
+  harbor:
+  - apiVersion: v1
+    appVersion: 2.5.0
+    created: "2022-09-06T10:03:46.268379+02:00"
+    description: An open source trusted cloud native registry that stores, signs,
+      and scans content
+    digest: 4667fe8921300150f9641514ec7621295ebab34ae16b77b705224312a150f5fb
+    home: https://goharbor.io
+    icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
+    keywords:
+    - docker
+    - registry
+    - harbor
+    maintainers:
+    - email: yinw@vmware.com
+      name: Wenkai Yin
+    - email: hweiwei@vmware.com
+      name: Weiwei He
+    - email: yshengwen@vmware.com
+      name: Shengwen Yu
+    name: harbor
+    sources:
+    - https://github.com/goharbor/harbor
+    - https://github.com/goharbor/harbor-helm
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/harbor-1.9.0.tgz
+    version: 1.9.0
   kyverno-policies-app:
   - annotations:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.4.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2022-09-05T15:14:57.029035301Z"
+    created: "2022-09-06T10:03:46.2689079+02:00"
     description: A Helm chart for Kyverno policies
     digest: 58a13187452b085f67a013fd80ea8a0d5297acfdcf9eed4e8358c9c2e52999c0
     name: kyverno-policies-app
@@ -55,7 +82,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-09-05T15:14:57.028874747Z"
+    created: "2022-09-06T10:03:46.2689079+02:00"
     description: A Helm chart for Kyverno policies
     digest: 8e9319f9af80e8ef414538f2cf8a8488d1d4f347086589defbd95fad4df9858a
     name: kyverno-policies-app
@@ -65,7 +92,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-09-05T15:14:57.028722045Z"
+    created: "2022-09-06T10:03:46.2689079+02:00"
     description: A Helm chart for Kyverno policies
     digest: 2a5c3950e1d69260c08bd31dc195e19a26ef964085eba5df2cd8cd0f26e99e17
     name: kyverno-policies-app
@@ -75,7 +102,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-09-05T15:14:57.028578539Z"
+    created: "2022-09-06T10:03:46.268379+02:00"
     description: A Helm chart for Kyverno policies
     digest: d2803d2a52e78f6af1566b5d7985b2e332d27e64d0bab66396c3d3c5c037d11d
     name: kyverno-policies-app
@@ -86,7 +113,7 @@ entries:
   onboarding-operator-app:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-05T15:14:57.03069386Z"
+    created: "2022-09-06T10:03:46.2710229+02:00"
     description: Helm Chart for the onboarding-operator-app
     digest: 804d413f7bbe00878d1bc7feb10e0a7ebbd41fefffd07314181a322903ab96a6
     name: onboarding-operator-app
@@ -96,7 +123,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-05T15:14:57.030365634Z"
+    created: "2022-09-06T10:03:46.2705112+02:00"
     description: Helm Chart for the onboarding-operator-app
     digest: 0acef2652ac7e8ba9ba0169a312d9da054c4c3f3ca43782c59e644a551cad054
     name: onboarding-operator-app
@@ -106,7 +133,7 @@ entries:
     version: 0.1.5-rc1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-05T15:14:57.030045083Z"
+    created: "2022-09-06T10:03:46.2699817+02:00"
     description: A Helm chart for Kubernetes
     digest: 3a16dbce65d60979397c4c19e1665aed212c88b4890095aeeacf8e714585eee0
     name: onboarding-operator-app
@@ -116,7 +143,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-05T15:14:57.029708631Z"
+    created: "2022-09-06T10:03:46.2699817+02:00"
     description: A Helm chart for Kubernetes
     digest: 1c3d212ac44368a68e51591c6bad0532890fa346f59f90cfab228ec4535e6450
     name: onboarding-operator-app
@@ -126,7 +153,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-09-05T15:14:57.029354206Z"
+    created: "2022-09-06T10:03:46.2694375+02:00"
     description: A Helm chart for Kubernetes
     digest: fbd9638f8f9901992e6c91ef48c02cdb1d6ad61b0100428d7004c751aa14dca9
     name: onboarding-operator-app
@@ -134,4 +161,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-05T15:14:57.019787465Z"
+generated: "2022-09-06T10:03:46.2585105+02:00"
