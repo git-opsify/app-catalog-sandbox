@@ -123,9 +123,9 @@ entries:
   onboarding-operator-app:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2022-09-12T14:14:52.166905417Z"
+    created: "2022-09-12T14:35:40.73133253Z"
     description: Helm Chart for the onboarding-operator-app
-    digest: f61243a53fc17e12ca28a322729a4ee003f860ebde41444ebcec79eb10c6dea9
+    digest: 193b2400107a247e8c6aa32e5cf65e50f3e31901a99569414c4ecbbf6a6704e4
     name: onboarding-operator-app
     type: application
     urls:
@@ -201,4 +201,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-12T14:20:36.785459947Z"
+generated: "2022-09-12T14:35:40.730816723Z"
