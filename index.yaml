@@ -144,6 +144,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-merge-both-repos.tgz
     version: 0.1.6-feat-merge-both-repos
   - apiVersion: v2
+    appVersion: feat-109-harbor-controller-api-and-integrationtest
+    created: "2022-09-21T15:09:57.560344183Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: e02544966b1ba1bf95a445469ca01fb390ea20e03ffd7f319f86a583394b2866
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-109-harbor-controller-api-and-integrationtest.tgz
+    version: 0.1.6-feat-109-harbor-controller-api-and-integrationtest
+  - apiVersion: v2
     appVersion: 0.1.6
     created: "2022-09-12T13:42:09.549805919Z"
     description: Helm Chart for the onboarding-operator-app
@@ -203,4 +215,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-12T14:47:53.568799756Z"
+generated: "2022-09-21T15:09:57.55984492Z"
