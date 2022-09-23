@@ -2,7 +2,7 @@ annotations:
   application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/external-secrets-0.6.0-rc1.tgz-meta/main.yaml
 chartApiVersion: v2
 chartFile: external-secrets-0.6.0-rc1.tgz
-dateCreated: '2022-09-21T19:21:53.382048'
-digest: 773f0504ab5622e83c0768016d2d6f6267baba9ab1f7e783658d8008ba9277d2
+dateCreated: '2022-09-22T12:57:26.111551'
+digest: 15191abebfc4497e05fc4151eb98a2024a3cca978b67a298d3662b4b23ec0bfc
 home: https://github.com/external-secrets/external-secrets
 icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
