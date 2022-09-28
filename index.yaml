@@ -156,6 +156,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v2
+    appVersion: tkp-160-kind-job
+    created: "2022-09-28T13:23:32.346299006Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 61c14bc2765d30622a44d9053422bc46f8bebd529bf92d3d9e36c2dd4bbc80fd
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-tkp-160-kind-job.tgz
+    version: 0.1.6-tkp-160-kind-job
+  - apiVersion: v2
     appVersion: test-rbac
     created: "2022-09-23T10:36:48.860024041Z"
     description: Helm Chart for the onboarding-operator-app
@@ -249,4 +261,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-24T19:08:30.818302738Z"
+generated: "2022-09-28T13:23:32.345815202Z"
