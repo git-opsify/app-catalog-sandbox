@@ -190,6 +190,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-merge-both-repos.tgz
     version: 0.1.6-feat-merge-both-repos
   - apiVersion: v2
+    appVersion: feat-158-rbac-for-operator-with-approvements
+    created: "2022-10-10T12:48:27.552949884Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 2dfaa855719a851ca16a78952819eefafcabbdc1f32b59c0b6807c1d91912de4
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-158-rbac-for-operator-with-approvements.tgz
+    version: 0.1.6-feat-158-rbac-for-operator-with-approvements
+  - apiVersion: v2
     appVersion: feat-158-rbac-for-operator
     created: "2022-10-07T17:52:56.592987495Z"
     description: Helm Chart for the onboarding-operator-app
@@ -273,4 +285,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-07T17:52:56.592459709Z"
+generated: "2022-10-10T12:48:27.55238527Z"
