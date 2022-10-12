@@ -210,9 +210,9 @@ entries:
     version: 0.1.6-feat-merge-both-repos
   - apiVersion: v2
     appVersion: feat-166-crd-validation
-    created: "2022-10-12T07:59:51.667215556Z"
+    created: "2022-10-12T11:56:14.975310873Z"
     description: Helm Chart for the onboarding-operator-app
-    digest: 156eb8885fa2c7a61f00794026bb967b3402579da4c22908d1f48be35e6a9d6b
+    digest: a68304f9a8cc81efd50429629020c09a64f75612ea06cd055523f3f4891824e4
     name: onboarding-operator-app
     sources:
     - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
@@ -316,4 +316,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-12T07:59:51.666709692Z"
+generated: "2022-10-12T11:56:14.974568753Z"
