@@ -199,6 +199,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-test-rbac.tgz
     version: 0.1.6-test-rbac
   - apiVersion: v2
+    appVersion: fix-166-crd-validation-subsequent-calls-must-use-project-name
+    created: "2022-10-13T14:54:59.132281609Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: d81df4cf92f29ddab9257cf1c6e70daf429964677592e7c34bf1bbc5e55e2d78
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-fix-166-crd-validation-subsequent-calls-must-use-project-name.tgz
+    version: 0.1.6-fix-166-crd-validation-subsequent-calls-must-use-project-name
+  - apiVersion: v2
     appVersion: feat-merge-both-repos
     created: "2022-09-23T10:36:48.8596657Z"
     description: Helm Chart for the onboarding-operator-app
@@ -316,4 +328,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-12T11:56:14.974568753Z"
+generated: "2022-10-13T14:54:59.131728887Z"
