@@ -100,9 +100,9 @@ entries:
     version: 0.1.0-feat-add-helm-chart
   - apiVersion: v2
     appVersion: feat-158-deployment-to-mgmt-cluster
-    created: "2022-10-14T08:19:24.230623779Z"
+    created: "2022-10-14T10:52:13.785024417Z"
     description: A Helm chart for Kubernetes
-    digest: 5104f90fc056a2717675a1575d06743bfae651d8780c4f7bf7fbf203da2ef335
+    digest: 92a0f32ecf07e26bb1924e52ff42210af2cd71d6ef0f4f6332203f0555330b26
     name: authn-authz-operator-app
     type: application
     urls:
@@ -367,4 +367,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-14T08:19:24.230066284Z"
+generated: "2022-10-14T10:52:13.784533555Z"
