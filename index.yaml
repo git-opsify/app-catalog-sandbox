@@ -98,6 +98,16 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/authn-authz-operator-app-0.1.0-feat-add-helm-chart.tgz
     version: 0.1.0-feat-add-helm-chart
+  - apiVersion: v2
+    appVersion: feat-158-deployment-to-mgmt-cluster
+    created: "2022-10-14T08:19:24.230623779Z"
+    description: A Helm chart for Kubernetes
+    digest: 5104f90fc056a2717675a1575d06743bfae651d8780c4f7bf7fbf203da2ef335
+    name: authn-authz-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/authn-authz-operator-app-0.1.0-feat-158-deployment-to-mgmt-cluster.tgz
+    version: 0.1.0-feat-158-deployment-to-mgmt-cluster
   external-secrets:
   - annotations:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/external-secrets-0.6.0-rc1.tgz-meta/main.yaml
@@ -357,4 +367,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-14T06:52:37.412000426Z"
+generated: "2022-10-14T08:19:24.230066284Z"
