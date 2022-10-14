@@ -59,6 +59,16 @@ entries:
     version: 0.1.0
   authn-authz-operator-app:
   - apiVersion: v2
+    appVersion: tkp-pm-136-remove-rbac-proxy
+    created: "2022-10-14T06:52:37.412524696Z"
+    description: A Helm chart for Kubernetes
+    digest: 7bd2e9789fcce5a06ce73a0e18cdfc96175c87586551c9cdc47ee563967ba97b
+    name: authn-authz-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/authn-authz-operator-app-0.1.0-tkp-pm-136-remove-rbac-proxy.tgz
+    version: 0.1.0-tkp-pm-136-remove-rbac-proxy
+  - apiVersion: v2
     appVersion: test
     created: "2022-09-23T10:36:48.848508822Z"
     description: A Helm chart for Kubernetes
@@ -347,4 +357,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-14T06:35:44.744190061Z"
+generated: "2022-10-14T06:52:37.412000426Z"
