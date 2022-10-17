@@ -238,6 +238,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-test-rbac.tgz
     version: 0.1.6-test-rbac
   - apiVersion: v2
+    appVersion: renovate-k8s-io-api-0-x
+    created: "2022-10-17T07:50:56.31103812Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 4a245786b275fb77ae3c6695ad4b8b26b77880ac7bcb887b4169c2509879ebb4
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-renovate-k8s-io-api-0-x.tgz
+    version: 0.1.6-renovate-k8s-io-api-0-x
+  - apiVersion: v2
     appVersion: fix-166-crd-validation-subsequent-calls-must-use-project-name
     created: "2022-10-13T14:54:59.132281609Z"
     description: Helm Chart for the onboarding-operator-app
@@ -367,4 +379,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-17T07:48:46.673967382Z"
+generated: "2022-10-17T07:50:56.310485878Z"
