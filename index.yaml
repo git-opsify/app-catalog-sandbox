@@ -327,6 +327,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-158-rbac-for-operator.tgz
     version: 0.1.6-feat-158-rbac-for-operator
   - apiVersion: v2
+    appVersion: feat-131-proper-gitlab-testing
+    created: "2022-10-20T08:52:32.8676618Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: a2df3c862755bfa0d8fa049b8de8fc4d46b2c755098955967f5fc4fac772037a
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-131-proper-gitlab-testing.tgz
+    version: 0.1.6-feat-131-proper-gitlab-testing
+  - apiVersion: v2
     appVersion: feat-109-harbor-controller-api-and-integrationtest
     created: "2022-09-30T06:31:12.955605554Z"
     description: Helm Chart for the onboarding-operator-app
@@ -398,4 +410,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-19T08:14:46.225010542Z"
+generated: "2022-10-20T08:52:32.86591398Z"
