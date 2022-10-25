@@ -338,9 +338,9 @@ entries:
     version: 0.1.6-feat-158-rbac-for-operator
   - apiVersion: v2
     appVersion: feat-131-proper-gitlab-testing
-    created: "2022-10-20T08:52:32.8676618Z"
+    created: "2022-10-25T11:16:00.51361266Z"
     description: Helm Chart for the onboarding-operator-app
-    digest: a2df3c862755bfa0d8fa049b8de8fc4d46b2c755098955967f5fc4fac772037a
+    digest: acf764e50deaf64a7fa253e193893c0389246f759ebac5ec5941b874774db5cd
     name: onboarding-operator-app
     sources:
     - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
@@ -420,4 +420,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-25T08:54:16.900820449Z"
+generated: "2022-10-25T11:16:00.512974965Z"
