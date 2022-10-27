@@ -109,9 +109,9 @@ entries:
     version: 0.1.0-feat-read-secret-from-file
   - apiVersion: v2
     appVersion: feat-assign-app-roles
-    created: "2022-10-25T17:24:17.610035281Z"
+    created: "2022-10-27T19:28:49.041794345Z"
     description: A Helm chart for Kubernetes
-    digest: 77dfa06ade40b825c102e89b061c0d3171de99efe7d70ea80a728d00937acca8
+    digest: 6c6353b90a0d54208c6fcd998507faa9970bfe20d2c44e52b8fe7c74350012a4
     name: authn-authz-operator-app
     type: application
     urls:
@@ -442,4 +442,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-27T09:26:52.75387273Z"
+generated: "2022-10-27T19:28:49.041244617Z"
