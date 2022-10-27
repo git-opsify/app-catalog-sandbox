@@ -277,6 +277,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-renovate-k8s-io-api-0-x.tgz
     version: 0.1.6-renovate-k8s-io-api-0-x
   - apiVersion: v2
+    appVersion: renovate-docker-20-x
+    created: "2022-10-27T19:56:17.787093383Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 884c7788c8fdb97966b130c3d9ef1fbaeaaee34c68c20d04220c49d489ef9b78
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-renovate-docker-20-x.tgz
+    version: 0.1.6-renovate-docker-20-x
+  - apiVersion: v2
     appVersion: fix-run-tests-in-main
     created: "2022-10-26T13:04:21.683616151Z"
     description: Helm Chart for the onboarding-operator-app
@@ -442,4 +454,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-27T19:28:49.041244617Z"
+generated: "2022-10-27T19:56:17.786553981Z"
