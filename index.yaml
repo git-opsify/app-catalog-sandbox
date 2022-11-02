@@ -265,6 +265,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-test-rbac.tgz
     version: 0.1.6-test-rbac
   - apiVersion: v2
+    appVersion: renovate-kubernetes-go
+    created: "2022-11-02T09:56:17.224914764Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: ba85905040533198ae0eeed12c9c1bf53493ffdecf446544a0ce5fb287970767
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-renovate-kubernetes-go.tgz
+    version: 0.1.6-renovate-kubernetes-go
+  - apiVersion: v2
     appVersion: renovate-k8s-io-api-0-x
     created: "2022-10-25T15:39:59.867279333Z"
     description: Helm Chart for the onboarding-operator-app
@@ -466,4 +478,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-02T09:30:58.367695778Z"
+generated: "2022-11-02T09:56:17.224325593Z"
