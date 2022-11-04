@@ -371,6 +371,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-merge-both-repos.tgz
     version: 0.1.6-feat-merge-both-repos
   - apiVersion: v2
+    appVersion: feat-207-gitlab-argocd-secret
+    created: "2022-11-04T15:14:11.725028835Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: b81db3d8ba488011f8a275fd988c892d858f1548d64e73975389b92e15298ff3
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-207-gitlab-argocd-secret.tgz
+    version: 0.1.6-feat-207-gitlab-argocd-secret
+  - apiVersion: v2
     appVersion: feat-180-use-version-tag-and-digest-for-images
     created: "2022-10-27T09:26:52.754491109Z"
     description: Helm Chart for the onboarding-operator-app
@@ -502,4 +514,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-04T09:16:11.158593165Z"
+generated: "2022-11-04T15:14:11.724472433Z"
