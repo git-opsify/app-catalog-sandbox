@@ -301,6 +301,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-renovate-golang-1-x.tgz
     version: 0.1.6-renovate-golang-1-x
   - apiVersion: v2
+    appVersion: renovate-github-com-xanzy-go-gitlab-0-x
+    created: "2022-11-04T09:16:11.159157695Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 0664530ff1cb7bf7e102fcb3ee6941e5cfd901826502e54a3b42ae18c1e1dda0
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-renovate-github-com-xanzy-go-gitlab-0-x.tgz
+    version: 0.1.6-renovate-github-com-xanzy-go-gitlab-0-x
+  - apiVersion: v2
     appVersion: renovate-git-we-decodeinsurance-de-hdi-cloud-tkp-labs-go-harbor
     created: "2022-11-02T09:59:44.164259343Z"
     description: Helm Chart for the onboarding-operator-app
@@ -490,4 +502,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-02T09:59:44.163707587Z"
+generated: "2022-11-04T09:16:11.158593165Z"
