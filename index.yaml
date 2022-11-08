@@ -529,6 +529,16 @@ entries:
   tkp-customer-app:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-11-08T14:48:48.992406206Z"
+    description: A Helm chart for Kubernetes
+    digest: 8754538b977aab758a87ec3333d9f55e72a598e6bfb36503a373cc63c1b3c2d8
+    name: tkp-customer-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-app-0.1.0-rc2.tgz
+    version: 0.1.0-rc2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-11-08T12:19:01.928183951Z"
     description: A Helm chart for Kubernetes
     digest: dadfa964dedc1f98b3707bfb0e2b28438789d6835858e8447bbe7481765bd85b
@@ -537,4 +547,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-08T12:19:01.927680645Z"
+generated: "2022-11-08T14:48:48.991952212Z"
