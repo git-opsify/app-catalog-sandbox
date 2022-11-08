@@ -526,4 +526,15 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-04T15:47:15.30871681Z"
+  tkp-customer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-08T12:14:13.629268307Z"
+    description: A Helm chart for Kubernetes
+    digest: d36c5a199de16db3740beb240a1cde7f2c065dbb269b3a4374780c292aef42f8
+    name: tkp-customer
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-0.1.0-rc1.tgz
+    version: 0.1.0-rc1
+generated: "2022-11-08T12:14:13.628863876Z"
