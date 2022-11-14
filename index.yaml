@@ -528,6 +528,16 @@ entries:
     version: 0.1.0
   tkp-customer-app:
   - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-11-14T14:48:50.169889747Z"
+    description: This chart create all required resources during tkp customer onboarding
+    digest: 6cbcc307dbd4bb78e308515ee18d8074789ce9eb4b0b6c585bc008bd988098c6
+    name: tkp-customer-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-app-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
     appVersion: 0.1.0-rc4
     created: "2022-11-10T10:35:52.000462785Z"
     description: A Helm chart for Kubernetes
@@ -579,4 +589,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-10T11:06:28.775843213Z"
+generated: "2022-11-14T14:48:50.169140527Z"
