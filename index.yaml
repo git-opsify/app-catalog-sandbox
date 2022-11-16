@@ -407,6 +407,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-207-gitlab-argocd-secret.tgz
     version: 0.1.6-feat-207-gitlab-argocd-secret
   - apiVersion: v2
+    appVersion: feat-196-pipeline-merge-when-succeed
+    created: "2022-11-16T13:17:21.086550973Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 100fc4e164d4b2a57bb24594a73bca9234dc2f9be38999ed3c943d023b0aafe9
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-196-pipeline-merge-when-succeed.tgz
+    version: 0.1.6-feat-196-pipeline-merge-when-succeed
+  - apiVersion: v2
     appVersion: feat-180-use-version-tag-and-digest-for-images
     created: "2022-10-27T09:26:52.754491109Z"
     description: Helm Chart for the onboarding-operator-app
@@ -612,4 +624,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-15T09:36:36.202048288Z"
+generated: "2022-11-16T13:17:21.085442453Z"
