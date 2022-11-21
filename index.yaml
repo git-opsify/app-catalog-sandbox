@@ -109,9 +109,9 @@ entries:
     version: 0.1.0-feat-read-secret-from-file
   - apiVersion: v2
     appVersion: feat-assign-app-roles
-    created: "2022-11-04T15:17:04.699710897Z"
+    created: "2022-11-21T12:12:15.203168331Z"
     description: A Helm chart for Kubernetes
-    digest: 4bcc5f199cd666a2239ba6607527bb64b433e8e908e7929bed4d7cdc95c31487
+    digest: 592429cacfda2dc5345acfc78c10e7440f1539e7cc7749aca95a23a8cf611dee
     name: authn-authz-operator-app
     type: application
     urls:
@@ -634,4 +634,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-18T10:25:55.41878626Z"
+generated: "2022-11-21T12:12:15.202274756Z"
