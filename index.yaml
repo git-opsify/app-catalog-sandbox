@@ -402,6 +402,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-merge-both-repos.tgz
     version: 0.1.6-feat-merge-both-repos
   - apiVersion: v2
+    appVersion: feat-240-enable-multi-namespace-support
+    created: "2022-11-24T10:15:37.202849991Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: ff1f1bd2b81d8227e3be32d18fb8012435b7c7c0a84af5e7fd28c68870114236
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.6-feat-240-enable-multi-namespace-support.tgz
+    version: 0.1.6-feat-240-enable-multi-namespace-support
+  - apiVersion: v2
     appVersion: feat-230-add-project-to-harbor-secret
     created: "2022-11-21T13:36:21.594963131Z"
     description: Helm Chart for the onboarding-operator-app
@@ -716,4 +728,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-23T15:53:04.875204231Z"
+generated: "2022-11-24T10:15:37.202249403Z"
