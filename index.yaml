@@ -475,9 +475,9 @@ entries:
     version: 0.1.6-feat-196-pipeline-merge-when-succeed
   - apiVersion: v2
     appVersion: feat-181-auto-generate-crd-docs
-    created: "2022-11-24T14:50:27.607111264Z"
+    created: "2022-11-24T15:06:06.142808476Z"
     description: Helm Chart for the onboarding-operator-app
-    digest: 1bd41dd1e4159dc169927b55819f480052f9c664efa64f46feb583456232f5a6
+    digest: 74de2918cc8e7ff80c118e30ec9d435bffd4c89a66a691566ae995d582bdccd8
     name: onboarding-operator-app
     sources:
     - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
@@ -752,4 +752,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-24T14:50:27.605909985Z"
+generated: "2022-11-24T15:06:06.142248537Z"
