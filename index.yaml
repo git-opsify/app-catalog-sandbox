@@ -248,6 +248,18 @@ entries:
     version: 0.0.1
   onboarding-operator-app:
   - apiVersion: v2
+    appVersion: feat-240-enable-multi-namespace-support
+    created: "2022-11-24T10:57:26.382755247Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 2ba1c6807631832bb9cc34b143f37b9db968aaf1b93af3d7c7a4f1ab21c4144c
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.7-feat-240-enable-multi-namespace-support.tgz
+    version: 0.1.7-feat-240-enable-multi-namespace-support
+  - apiVersion: v2
     appVersion: 0.1.6
     created: "2022-10-25T15:39:59.868245562Z"
     description: Helm Chart for the onboarding-operator-app
@@ -728,4 +740,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-24T10:42:34.745755703Z"
+generated: "2022-11-24T10:57:26.382165658Z"
