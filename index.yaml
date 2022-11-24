@@ -709,10 +709,10 @@ entries:
   tkp-customer-cluster-init-app:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-11-23T15:49:39.83533737Z"
+    created: "2022-11-24T11:04:53.337088492Z"
     description: This Helm Chart creates namespace and rolebindings on the workload
       cluster
-    digest: 5e20da71e95eff6e7ca86ec7cd08c57b13f19b02c9e7d466b657f4a9108cddc0
+    digest: 280bc823a919512b21f6e83a021ebfb1af9dbcaa2719992adf547505fc481c4c
     name: tkp-customer-cluster-init-app
     type: application
     urls:
@@ -740,4 +740,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-24T10:57:26.382165658Z"
+generated: "2022-11-24T11:04:53.335872986Z"
