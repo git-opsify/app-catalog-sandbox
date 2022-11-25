@@ -137,6 +137,16 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/authn-authz-operator-app-0.1.0-feat-assign-app-roles.tgz
     version: 0.1.0-feat-assign-app-roles
   - apiVersion: v2
+    appVersion: feat-add-watch-namespace-to-helm-chart
+    created: "2022-11-25T07:23:17.581823535Z"
+    description: A Helm chart for Kubernetes
+    digest: 610a7acbc348722cff9a6cac116ee791bd2558ba71e0680b4b887a8f14aa41f9
+    name: authn-authz-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/authn-authz-operator-app-0.1.0-feat-add-watch-namespace-to-helm-chart.tgz
+    version: 0.1.0-feat-add-watch-namespace-to-helm-chart
+  - apiVersion: v2
     appVersion: feat-add-helm-chart
     created: "2022-10-25T15:39:59.854104755Z"
     description: A Helm chart for Kubernetes
@@ -752,4 +762,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-11-24T15:06:06.142248537Z"
+generated: "2022-11-25T07:23:17.580956915Z"
