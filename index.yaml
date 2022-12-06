@@ -648,6 +648,16 @@ entries:
     version: 0.1.0
   tkp-customer-app:
   - apiVersion: v2
+    appVersion: 0.1.4
+    created: "2022-12-06T13:15:17.19198144Z"
+    description: This chart create all required resources during tkp customer onboarding
+    digest: 025388c6deccd091c1c229994a4e65d462c4864f5dc9464e798eb74ab587a6cc
+    name: tkp-customer-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-app-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
     appVersion: 0.1.3
     created: "2022-12-06T13:11:37.937717277Z"
     description: This chart create all required resources during tkp customer onboarding
@@ -801,4 +811,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-12-06T13:11:37.937221825Z"
+generated: "2022-12-06T13:15:17.191214414Z"
