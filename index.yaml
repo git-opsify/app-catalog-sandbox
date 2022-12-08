@@ -3,7 +3,7 @@ entries:
   argo-cd-app:
   - apiVersion: v2
     appVersion: 5.16.0
-    created: "2022-12-01T14:01:03.603138905Z"
+    created: "2022-12-08T11:51:59.380867471Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -22,7 +22,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: 5.14.1
-    created: "2022-12-01T13:54:32.958089235Z"
+    created: "2022-12-08T11:51:59.372574386Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -41,7 +41,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 5.6.0
-    created: "2022-10-25T15:39:59.853457234Z"
+    created: "2022-12-08T11:51:59.363775212Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -60,7 +60,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 5.5.24
-    created: "2022-10-25T15:39:59.845747142Z"
+    created: "2022-12-08T11:51:59.354695742Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -79,7 +79,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 5.5.16
-    created: "2022-10-25T15:39:59.837845068Z"
+    created: "2022-12-08T11:51:59.346411251Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -98,7 +98,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2022-10-25T15:39:59.82969133Z"
+    created: "2022-12-08T11:51:59.336937685Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -117,7 +117,7 @@ entries:
   authn-authz-operator-app:
   - apiVersion: v2
     appVersion: tkp-pm-136-remove-rbac-proxy
-    created: "2022-10-25T15:39:59.855351827Z"
+    created: "2022-12-08T11:51:59.383115125Z"
     description: A Helm chart for Kubernetes
     digest: 7bd2e9789fcce5a06ce73a0e18cdfc96175c87586551c9cdc47ee563967ba97b
     name: authn-authz-operator-app
@@ -127,7 +127,7 @@ entries:
     version: 0.1.0-tkp-pm-136-remove-rbac-proxy
   - apiVersion: v2
     appVersion: test
-    created: "2022-10-25T15:39:59.855073828Z"
+    created: "2022-12-08T11:51:59.382842503Z"
     description: A Helm chart for Kubernetes
     digest: 48ec34574b0f6421c2c670fbd2d7321a47a4e7094635232393c6bbebca99c17b
     name: authn-authz-operator-app
@@ -137,7 +137,7 @@ entries:
     version: 0.1.0-test
   - apiVersion: v2
     appVersion: feat-read-secret-from-file
-    created: "2022-10-25T15:39:59.854757795Z"
+    created: "2022-12-08T11:51:59.382543537Z"
     description: A Helm chart for Kubernetes
     digest: f6285ede6d4b75a6770b30889de1d534983cf5ff0c6363a2a4e35639f71636ec
     name: authn-authz-operator-app
@@ -147,7 +147,7 @@ entries:
     version: 0.1.0-feat-read-secret-from-file
   - apiVersion: v2
     appVersion: feat-assign-app-roles
-    created: "2022-11-21T12:12:15.203168331Z"
+    created: "2022-12-08T11:51:59.38222619Z"
     description: A Helm chart for Kubernetes
     digest: 592429cacfda2dc5345acfc78c10e7440f1539e7cc7749aca95a23a8cf611dee
     name: authn-authz-operator-app
@@ -157,7 +157,7 @@ entries:
     version: 0.1.0-feat-assign-app-roles
   - apiVersion: v2
     appVersion: feat-add-watch-namespace-to-helm-chart
-    created: "2022-11-25T07:23:17.581823535Z"
+    created: "2022-12-08T11:51:59.381880041Z"
     description: A Helm chart for Kubernetes
     digest: 610a7acbc348722cff9a6cac116ee791bd2558ba71e0680b4b887a8f14aa41f9
     name: authn-authz-operator-app
@@ -167,7 +167,7 @@ entries:
     version: 0.1.0-feat-add-watch-namespace-to-helm-chart
   - apiVersion: v2
     appVersion: feat-add-helm-chart
-    created: "2022-10-25T15:39:59.854104755Z"
+    created: "2022-12-08T11:51:59.381539626Z"
     description: A Helm chart for Kubernetes
     digest: 23f1dd5cbf0420e43e58cfae39980a62ade4f7e91fa1998cb4805e8fdad8721e
     name: authn-authz-operator-app
@@ -177,7 +177,7 @@ entries:
     version: 0.1.0-feat-add-helm-chart
   - apiVersion: v2
     appVersion: feat-158-deployment-to-mgmt-cluster
-    created: "2022-10-25T15:39:59.853789085Z"
+    created: "2022-12-08T11:51:59.381222465Z"
     description: A Helm chart for Kubernetes
     digest: 72b578611364c434cd234a8556cae73b75f701a49a9996ca8b6f74517c8f644f
     name: authn-authz-operator-app
@@ -190,9 +190,9 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/external-secrets-0.6.0-rc1.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: v0.6.0-rc1
-    created: "2022-10-25T15:39:59.857618165Z"
+    created: "2022-12-08T11:51:59.386990656Z"
     description: External secret management for Kubernetes
-    digest: 15191abebfc4497e05fc4151eb98a2024a3cca978b67a298d3662b4b23ec0bfc
+    digest: d3f4749bdc6ae7b0cdcecaa025215656562a088934f5e5a810d70466366b5848
     home: https://github.com/external-secrets/external-secrets
     icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
     keywords:
@@ -210,7 +210,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.5.0
-    created: "2022-10-25T15:39:59.860568977Z"
+    created: "2022-12-08T11:51:59.389962104Z"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 4667fe8921300150f9641514ec7621295ebab34ae16b77b705224312a150f5fb
@@ -237,7 +237,7 @@ entries:
   kyverno-policies-app:
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2022-10-25T15:39:59.861153172Z"
+    created: "2022-12-08T11:51:59.390536651Z"
     description: A Helm chart for Kyverno policies
     digest: 2b0f57717ec6add928968717015c2d3533145ef10d642b7a5c1de172dc4ea5ec
     name: kyverno-policies-app
@@ -247,7 +247,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-10-25T15:39:59.86100713Z"
+    created: "2022-12-08T11:51:59.390392266Z"
     description: A Helm chart for Kyverno policies
     digest: 8e9319f9af80e8ef414538f2cf8a8488d1d4f347086589defbd95fad4df9858a
     name: kyverno-policies-app
@@ -257,7 +257,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-10-25T15:39:59.860871668Z"
+    created: "2022-12-08T11:51:59.390256435Z"
     description: A Helm chart for Kyverno policies
     digest: 2a5c3950e1d69260c08bd31dc195e19a26ef964085eba5df2cd8cd0f26e99e17
     name: kyverno-policies-app
@@ -267,7 +267,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-10-25T15:39:59.860725661Z"
+    created: "2022-12-08T11:51:59.390121069Z"
     description: A Helm chart for Kyverno policies
     digest: d2803d2a52e78f6af1566b5d7985b2e332d27e64d0bab66396c3d3c5c037d11d
     name: kyverno-policies-app
@@ -278,7 +278,7 @@ entries:
   onboarding-operator-app:
   - apiVersion: v2
     appVersion: feat-240-enable-multi-namespace-support
-    created: "2022-11-24T13:32:45.908791628Z"
+    created: "2022-12-08T11:51:59.403082992Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 4ceeefe83eb998e6ad14207ff36ce2cf0a3fd40d7a377c508e193e9899c5b588
     name: onboarding-operator-app
@@ -290,7 +290,7 @@ entries:
     version: 0.1.7-feat-240-enable-multi-namespace-support
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2022-10-25T15:39:59.868245562Z"
+    created: "2022-12-08T11:51:59.402470456Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 9a15a7a4f59b6ba9fbcec4329e38b5224eebde9f3e1da999bc1b251fa161703b
     name: onboarding-operator-app
@@ -302,7 +302,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: tkp-160-kind-job
-    created: "2022-10-25T15:39:59.867951184Z"
+    created: "2022-12-08T11:51:59.401967223Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 61c14bc2765d30622a44d9053422bc46f8bebd529bf92d3d9e36c2dd4bbc80fd
     name: onboarding-operator-app
@@ -314,7 +314,7 @@ entries:
     version: 0.1.6-tkp-160-kind-job
   - apiVersion: v2
     appVersion: test-rbac
-    created: "2022-10-25T15:39:59.867652592Z"
+    created: "2022-12-08T11:51:59.401444475Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 61f4c1f936b0295819d6cebe3f6665031f459db47a5185da622b1e41fc97c7e8
     name: onboarding-operator-app
@@ -326,7 +326,7 @@ entries:
     version: 0.1.6-test-rbac
   - apiVersion: v2
     appVersion: renovate-kubernetes-go
-    created: "2022-11-02T09:56:17.224914764Z"
+    created: "2022-12-08T11:51:59.401120033Z"
     description: Helm Chart for the onboarding-operator-app
     digest: ba85905040533198ae0eeed12c9c1bf53493ffdecf446544a0ce5fb287970767
     name: onboarding-operator-app
@@ -338,7 +338,7 @@ entries:
     version: 0.1.6-renovate-kubernetes-go
   - apiVersion: v2
     appVersion: renovate-k8s-io-api-0-x
-    created: "2022-10-25T15:39:59.867279333Z"
+    created: "2022-12-08T11:51:59.400798718Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 4a245786b275fb77ae3c6695ad4b8b26b77880ac7bcb887b4169c2509879ebb4
     name: onboarding-operator-app
@@ -350,7 +350,7 @@ entries:
     version: 0.1.6-renovate-k8s-io-api-0-x
   - apiVersion: v2
     appVersion: renovate-golang-1-x
-    created: "2022-11-02T09:30:58.368289424Z"
+    created: "2022-12-08T11:51:59.400482472Z"
     description: Helm Chart for the onboarding-operator-app
     digest: a91665799b268977e35f66a6a5e928e79d18535f2a2fac7a8ca024c5095773cd
     name: onboarding-operator-app
@@ -362,7 +362,7 @@ entries:
     version: 0.1.6-renovate-golang-1-x
   - apiVersion: v2
     appVersion: renovate-go-1-x
-    created: "2022-11-04T15:47:15.309274613Z"
+    created: "2022-12-08T11:51:59.400138325Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 35bfe4bc2561361c86b731a7abd7be465188256f9a9cb755eabfa1e98fccd44e
     name: onboarding-operator-app
@@ -374,7 +374,7 @@ entries:
     version: 0.1.6-renovate-go-1-x
   - apiVersion: v2
     appVersion: renovate-github-com-xanzy-go-gitlab-0-x
-    created: "2022-11-04T09:16:11.159157695Z"
+    created: "2022-12-08T11:51:59.399810096Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 0664530ff1cb7bf7e102fcb3ee6941e5cfd901826502e54a3b42ae18c1e1dda0
     name: onboarding-operator-app
@@ -386,7 +386,7 @@ entries:
     version: 0.1.6-renovate-github-com-xanzy-go-gitlab-0-x
   - apiVersion: v2
     appVersion: renovate-git-we-decodeinsurance-de-hdi-cloud-tkp-labs-go-harbor
-    created: "2022-11-02T09:59:44.164259343Z"
+    created: "2022-12-08T11:51:59.399479923Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 0c46f10629490b011fcc100602e16321eeb277d9ae70a160d9257807ddbf9c71
     name: onboarding-operator-app
@@ -398,7 +398,7 @@ entries:
     version: 0.1.6-renovate-git-we-decodeinsurance-de-hdi-cloud-tkp-labs-go-harbor
   - apiVersion: v2
     appVersion: renovate-docker-20-x
-    created: "2022-10-27T19:56:17.787093383Z"
+    created: "2022-12-08T11:51:59.399123509Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 884c7788c8fdb97966b130c3d9ef1fbaeaaee34c68c20d04220c49d489ef9b78
     name: onboarding-operator-app
@@ -410,7 +410,7 @@ entries:
     version: 0.1.6-renovate-docker-20-x
   - apiVersion: v2
     appVersion: fix-run-tests-in-main
-    created: "2022-10-26T13:04:21.683616151Z"
+    created: "2022-12-08T11:51:59.398798394Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 4d0d47e145c855483e176ea29237e0f210c40b3c96d2c76fc38bad83a280e43e
     name: onboarding-operator-app
@@ -422,7 +422,7 @@ entries:
     version: 0.1.6-fix-run-tests-in-main
   - apiVersion: v2
     appVersion: fix-166-crd-validation-subsequent-calls-must-use-project-name
-    created: "2022-10-25T15:39:59.866762646Z"
+    created: "2022-12-08T11:51:59.398461131Z"
     description: Helm Chart for the onboarding-operator-app
     digest: d81df4cf92f29ddab9257cf1c6e70daf429964677592e7c34bf1bbc5e55e2d78
     name: onboarding-operator-app
@@ -434,7 +434,7 @@ entries:
     version: 0.1.6-fix-166-crd-validation-subsequent-calls-must-use-project-name
   - apiVersion: v2
     appVersion: feat-merge-both-repos
-    created: "2022-10-25T15:39:59.866190581Z"
+    created: "2022-12-08T11:51:59.398073846Z"
     description: Helm Chart for the onboarding-operator-app
     digest: d91d99529a182f4b65f5273a02044b61a19ae45ebc083cb82d93b15b604c80c6
     name: onboarding-operator-app
@@ -444,7 +444,7 @@ entries:
     version: 0.1.6-feat-merge-both-repos
   - apiVersion: v2
     appVersion: feat-240-enable-multi-namespace-support
-    created: "2022-11-24T10:42:34.746874426Z"
+    created: "2022-12-08T11:51:59.397086177Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 9f0a44973e530893b19682536ad78ded55443f6d52da91df94d21190a42de4ae
     name: onboarding-operator-app
@@ -456,7 +456,7 @@ entries:
     version: 0.1.6-feat-240-enable-multi-namespace-support
   - apiVersion: v2
     appVersion: feat-230-add-project-to-harbor-secret
-    created: "2022-11-21T13:36:21.594963131Z"
+    created: "2022-12-08T11:51:59.396744489Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 008347b7a97ab00db197a59d52ce6b8548f7f8c87f21a2b882506190b841e13a
     name: onboarding-operator-app
@@ -468,7 +468,7 @@ entries:
     version: 0.1.6-feat-230-add-project-to-harbor-secret
   - apiVersion: v2
     appVersion: feat-208-argocd-harbor-secret
-    created: "2022-11-15T08:38:06.280675315Z"
+    created: "2022-12-08T11:51:59.396399002Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 1367c6e1213e12136cd7a68921a9a0ded1c812c383257ec9b3ecdc53dfb7fbc1
     name: onboarding-operator-app
@@ -480,7 +480,7 @@ entries:
     version: 0.1.6-feat-208-argocd-harbor-secret
   - apiVersion: v2
     appVersion: feat-207-gitlab-argocd-secret
-    created: "2022-11-04T15:14:11.725028835Z"
+    created: "2022-12-08T11:51:59.396014738Z"
     description: Helm Chart for the onboarding-operator-app
     digest: b81db3d8ba488011f8a275fd988c892d858f1548d64e73975389b92e15298ff3
     name: onboarding-operator-app
@@ -492,7 +492,7 @@ entries:
     version: 0.1.6-feat-207-gitlab-argocd-secret
   - apiVersion: v2
     appVersion: feat-196-pipeline-merge-when-succeed
-    created: "2022-11-16T13:17:21.086550973Z"
+    created: "2022-12-08T11:51:59.395688853Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 100fc4e164d4b2a57bb24594a73bca9234dc2f9be38999ed3c943d023b0aafe9
     name: onboarding-operator-app
@@ -504,7 +504,7 @@ entries:
     version: 0.1.6-feat-196-pipeline-merge-when-succeed
   - apiVersion: v2
     appVersion: feat-181-auto-generate-crd-docs
-    created: "2022-11-24T15:06:06.142808476Z"
+    created: "2022-12-08T11:51:59.395341714Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 74de2918cc8e7ff80c118e30ec9d435bffd4c89a66a691566ae995d582bdccd8
     name: onboarding-operator-app
@@ -516,7 +516,7 @@ entries:
     version: 0.1.6-feat-181-auto-generate-crd-docs
   - apiVersion: v2
     appVersion: feat-180-use-version-tag-and-digest-for-images
-    created: "2022-10-27T09:26:52.754491109Z"
+    created: "2022-12-08T11:51:59.395014096Z"
     description: Helm Chart for the onboarding-operator-app
     digest: fff486959c783610ba6f6a23aa3224c6738af985d30ae5b672a5e46e27a21565
     name: onboarding-operator-app
@@ -528,7 +528,7 @@ entries:
     version: 0.1.6-feat-180-use-version-tag-and-digest-for-images
   - apiVersion: v2
     appVersion: feat-166-crd-validation
-    created: "2022-10-25T15:39:59.865708754Z"
+    created: "2022-12-08T11:51:59.394689181Z"
     description: Helm Chart for the onboarding-operator-app
     digest: a68304f9a8cc81efd50429629020c09a64f75612ea06cd055523f3f4891824e4
     name: onboarding-operator-app
@@ -540,7 +540,7 @@ entries:
     version: 0.1.6-feat-166-crd-validation
   - apiVersion: v2
     appVersion: feat-158-rbac-for-operator-with-approvements
-    created: "2022-10-25T15:39:59.864668485Z"
+    created: "2022-12-08T11:51:59.394070342Z"
     description: Helm Chart for the onboarding-operator-app
     digest: d3a1b9134751483dec768a4dde835b56103e5afa58960cc3ab3c9d85fe8d0908
     name: onboarding-operator-app
@@ -552,7 +552,7 @@ entries:
     version: 0.1.6-feat-158-rbac-for-operator-with-approvements
   - apiVersion: v2
     appVersion: feat-158-rbac-for-operator
-    created: "2022-10-25T15:39:59.865172627Z"
+    created: "2022-12-08T11:51:59.394376699Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 9c422acfe402f302f7101f872da417546b997c92c3e85f15a08aa403f3588213
     name: onboarding-operator-app
@@ -564,7 +564,7 @@ entries:
     version: 0.1.6-feat-158-rbac-for-operator
   - apiVersion: v2
     appVersion: feat-131-proper-gitlab-testing
-    created: "2022-10-25T15:39:59.864183254Z"
+    created: "2022-12-08T11:51:59.393745497Z"
     description: Helm Chart for the onboarding-operator-app
     digest: acf764e50deaf64a7fa253e193893c0389246f759ebac5ec5941b874774db5cd
     name: onboarding-operator-app
@@ -576,7 +576,7 @@ entries:
     version: 0.1.6-feat-131-proper-gitlab-testing
   - apiVersion: v2
     appVersion: feat-109-harbor-controller-api-and-integrationtest
-    created: "2022-10-25T15:39:59.863765607Z"
+    created: "2022-12-08T11:51:59.393420385Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 71196951ac04fde17881b298e44d960440f89b2cfd347fe88e4eaa6a8042e540
     name: onboarding-operator-app
@@ -588,7 +588,7 @@ entries:
     version: 0.1.6-feat-109-harbor-controller-api-and-integrationtest
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2022-10-25T15:39:59.863460545Z"
+    created: "2022-12-08T11:51:59.393109928Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 95b0bcb6ee009ec46ca662f58cf11b931b71590a036b32c28adbc4b4d7f96505
     name: onboarding-operator-app
@@ -598,7 +598,7 @@ entries:
     version: 0.1.6-0.1.6
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-10-25T15:39:59.863166813Z"
+    created: "2022-12-08T11:51:59.392800784Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 804d413f7bbe00878d1bc7feb10e0a7ebbd41fefffd07314181a322903ab96a6
     name: onboarding-operator-app
@@ -608,7 +608,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-10-25T15:39:59.862842143Z"
+    created: "2022-12-08T11:51:59.391781563Z"
     description: Helm Chart for the onboarding-operator-app
     digest: 0acef2652ac7e8ba9ba0169a312d9da054c4c3f3ca43782c59e644a551cad054
     name: onboarding-operator-app
@@ -618,7 +618,7 @@ entries:
     version: 0.1.5-rc1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-10-25T15:39:59.862038923Z"
+    created: "2022-12-08T11:51:59.391450885Z"
     description: A Helm chart for Kubernetes
     digest: 3a16dbce65d60979397c4c19e1665aed212c88b4890095aeeacf8e714585eee0
     name: onboarding-operator-app
@@ -628,7 +628,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-10-25T15:39:59.861741457Z"
+    created: "2022-12-08T11:51:59.391160486Z"
     description: A Helm chart for Kubernetes
     digest: 1c3d212ac44368a68e51591c6bad0532890fa346f59f90cfab228ec4535e6450
     name: onboarding-operator-app
@@ -638,7 +638,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-10-25T15:39:59.861453988Z"
+    created: "2022-12-08T11:51:59.390843839Z"
     description: A Helm chart for Kubernetes
     digest: fbd9638f8f9901992e6c91ef48c02cdb1d6ad61b0100428d7004c751aa14dca9
     name: onboarding-operator-app
@@ -649,7 +649,7 @@ entries:
   tkp-customer-app:
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2022-12-07T04:46:03.508946936Z"
+    created: "2022-12-08T11:51:59.407971458Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: 872c73e744a1a1ba2ac935c621f26b78b77ea85fd6647501bb4920ea212e8695
     name: tkp-customer-app
@@ -659,7 +659,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2022-12-07T11:06:21.983560174Z"
+    created: "2022-12-08T11:51:59.407674191Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: b60a94d8aca8ffe970b63959caf74c5392840bd7a9eb0668fed177b08abba44e
     name: tkp-customer-app
@@ -669,7 +669,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2022-12-06T13:11:37.937717277Z"
+    created: "2022-12-08T11:51:59.407392868Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: 8cff6ee596974caba01e6567cc6775f259070237e4d2f5e9ed8de1e36396a294
     name: tkp-customer-app
@@ -679,7 +679,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2022-12-06T03:47:47.273294084Z"
+    created: "2022-12-08T11:51:59.407122408Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: eba670089bb3a6023e617b455ecbf87533f1c49fe743740f4afd85cedd33f4b6
     name: tkp-customer-app
@@ -689,7 +689,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-11-24T11:05:05.696461386Z"
+    created: "2022-12-08T11:51:59.406849206Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: 08d119b20a1e26709264843ee9bce2f3783de70a53b329ad84b350d0a6bbc113
     name: tkp-customer-app
@@ -699,7 +699,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-11-18T10:24:14.369670641Z"
+    created: "2022-12-08T11:51:59.406573548Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: 96c087573feca71cf7493127a5b40acff561eeab842c94dfa96361a02a1dd414
     name: tkp-customer-app
@@ -709,7 +709,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 0.1.0-rc4
-    created: "2022-11-10T10:35:52.000462785Z"
+    created: "2022-12-08T11:51:59.40630159Z"
     description: A Helm chart for Kubernetes
     digest: 29b4a25999bf3f8369d6d5ad3385cb6297b711371fdbea3e423e613b253f3dcf
     name: tkp-customer-app
@@ -719,7 +719,7 @@ entries:
     version: 0.1.0-rc4
   - apiVersion: v2
     appVersion: 0.1.0-rc3
-    created: "2022-11-10T09:23:57.263622886Z"
+    created: "2022-12-08T11:51:59.406040909Z"
     description: A Helm chart for Kubernetes
     digest: dac6a4e60dfa2f701347dce93caf9db783c295057e07e3deb73e3e913096fa47
     name: tkp-customer-app
@@ -729,7 +729,7 @@ entries:
     version: 0.1.0-rc3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-08T14:48:48.992406206Z"
+    created: "2022-12-08T11:51:59.405759012Z"
     description: A Helm chart for Kubernetes
     digest: 8754538b977aab758a87ec3333d9f55e72a598e6bfb36503a373cc63c1b3c2d8
     name: tkp-customer-app
@@ -739,7 +739,7 @@ entries:
     version: 0.1.0-rc2
   - apiVersion: v2
     appVersion: 0.1.0-rc13
-    created: "2022-11-23T15:17:10.647472972Z"
+    created: "2022-12-08T11:51:59.405484369Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: d4d90055bf3414f02726c98327cb83c1ed98e52c420fcf5f6381d1bca0d3c1fc
     name: tkp-customer-app
@@ -749,7 +749,7 @@ entries:
     version: 0.1.0-rc13
   - apiVersion: v2
     appVersion: 0.1.0-rc12
-    created: "2022-11-23T14:30:11.775010337Z"
+    created: "2022-12-08T11:51:59.405201081Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: 14820581f4e4d4b609d9131a4152d248cccb3a0139c9076f1bd42fde764f90ba
     name: tkp-customer-app
@@ -759,7 +759,7 @@ entries:
     version: 0.1.0-rc12
   - apiVersion: v2
     appVersion: 0.1.0-rc10
-    created: "2022-11-21T14:21:14.773569833Z"
+    created: "2022-12-08T11:51:59.40490588Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: 8b2c6b697656ff764e93c4bb566a08f2c51d56e362be7e822a54abd3f7dc42fa
     name: tkp-customer-app
@@ -769,7 +769,7 @@ entries:
     version: 0.1.0-rc11
   - apiVersion: v2
     appVersion: 0.1.0-rc10
-    created: "2022-11-18T10:25:55.419232319Z"
+    created: "2022-12-08T11:51:59.404477132Z"
     description: This chart create all required resources during tkp customer onboarding
     digest: 4623954496470dccad14bb8c285a9320c9abdc57c6d58249138d378ebf47f641
     name: tkp-customer-app
@@ -779,7 +779,7 @@ entries:
     version: 0.1.0-rc10
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-08T12:19:01.928183951Z"
+    created: "2022-12-08T11:51:59.403486766Z"
     description: A Helm chart for Kubernetes
     digest: dadfa964dedc1f98b3707bfb0e2b28438789d6835858e8447bbe7481765bd85b
     name: tkp-customer-app
@@ -790,7 +790,7 @@ entries:
   tkp-customer-cluster-init-app:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-12-06T12:45:40.758016264Z"
+    created: "2022-12-08T11:51:59.409385211Z"
     description: This Helm Chart creates namespace and rolebindings on the workload
       cluster
     digest: c5f51b8488eefab0aab9b18a5f188558b89b640b04ba413729b49aeedd5eb010
@@ -801,7 +801,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-11-14T14:56:14.069265616Z"
+    created: "2022-12-08T11:51:59.40892935Z"
     description: This Helm Chart creates namespace and rolebindings on the workload
       cluster
     digest: bf28e67476429bb560c39a5e72bcc450c60555411bc89b2e4982a3b41713bd67
@@ -812,7 +812,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-10T11:06:28.776545297Z"
+    created: "2022-12-08T11:51:59.40844104Z"
     description: This Helm Chart creates namespace and rolebindings on the workload
       cluster
     digest: 975916677ae21438552365b98770d0122f17f7c08447f135c581222de592008e
@@ -821,4 +821,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-customer-cluster-init-app-0.1.0-rc1.tgz
     version: 0.1.0-rc1
-generated: "2022-12-07T11:06:21.983048994Z"
+generated: "2022-12-08T11:51:59.325022439Z"
