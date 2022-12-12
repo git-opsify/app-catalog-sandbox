@@ -1,0 +1,6 @@
+annotations:
+  application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz-meta/main.yaml
+chartApiVersion: v2
+chartFile: tkp-external-secrets-app-0.1.0.tgz
+dateCreated: '2022-12-12T04:06:10.735661'
+digest: 4303a26a1fafc4607bc19a0ea60d3cf8f4cbe340337b2e12d076210e5bf9f801
