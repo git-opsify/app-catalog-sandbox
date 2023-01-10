@@ -310,6 +310,18 @@ entries:
     version: 0.0.1
   onboarding-operator-app:
   - apiVersion: v2
+    appVersion: fix-manifests-not-up-to-date
+    created: "2023-01-10T09:54:42.443178558Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 7b2e43fd60ee66f41dafea5bfc5663ffb773e752c4e4816ffd62cc8c6ad87722
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.7-fix-manifests-not-up-to-date.tgz
+    version: 0.1.7-fix-manifests-not-up-to-date
+  - apiVersion: v2
     appVersion: feat-240-enable-multi-namespace-support
     created: "2022-12-12T11:49:31.171065677Z"
     description: Helm Chart for the onboarding-operator-app
@@ -871,4 +883,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-06T05:58:10.617452858Z"
+generated: "2023-01-10T09:54:42.442621714Z"
