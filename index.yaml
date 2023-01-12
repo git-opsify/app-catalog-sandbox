@@ -350,6 +350,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.7-feat-240-enable-multi-namespace-support.tgz
     version: 0.1.7-feat-240-enable-multi-namespace-support
   - apiVersion: v2
+    appVersion: bugfix-pipeline-crddocs
+    created: "2023-01-12T23:11:12.412590826Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: fdbd2b8fca2d79238387bd89c4773c9e2ae3772aa3ab6fae929879c960b656d2
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.7-bugfix-pipeline-crddocs.tgz
+    version: 0.1.7-bugfix-pipeline-crddocs
+  - apiVersion: v2
     appVersion: 0.1.6
     created: "2023-01-10T13:47:01.824833071Z"
     description: Helm Chart for the onboarding-operator-app
@@ -899,4 +911,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-11T06:47:15.044719225Z"
+generated: "2023-01-12T23:11:12.411953948Z"
