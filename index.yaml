@@ -722,9 +722,9 @@ entries:
   tkp-customer-app:
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2023-01-13T13:30:16.937619444Z"
+    created: "2023-01-13T13:34:41.676625908Z"
     description: This chart create all required resources during tkp customer onboarding
-    digest: 9d0973daeaffa88798ca66f64f73d99b2e019a299fe7ff4f693f141a5c9157a8
+    digest: c08fa66bf84783e9b7bd88ef23a344ac31e4b9bc6e09dce7e2a4dbab8225d988
     name: tkp-customer-app
     type: application
     urls:
@@ -911,4 +911,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-13T13:30:16.936999073Z"
+generated: "2023-01-13T13:34:41.676124153Z"
