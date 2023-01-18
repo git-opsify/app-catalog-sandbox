@@ -187,9 +187,9 @@ entries:
     version: 0.1.0-feat-158-deployment-to-mgmt-cluster
   - apiVersion: v2
     appVersion: bug-wrong-tenant-id
-    created: "2023-01-18T07:56:21.052619239Z"
+    created: "2023-01-18T08:52:18.460470072Z"
     description: A Helm chart for Kubernetes
-    digest: 266441b4a85c61cb97aa109c4139a0f34efdbed0a7bf01a6d25bd2f1ad90b250
+    digest: 0f5bff1245e3b87617312c8551644fd609a79d7688f3476b7e2068bfefcaf8b9
     name: authn-authz-operator-app
     type: application
     urls:
@@ -921,4 +921,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-18T07:56:21.052084179Z"
+generated: "2023-01-18T08:52:18.459630203Z"
