@@ -3,13 +3,13 @@ entries:
   argo-cd-app:
   - apiVersion: v2
     appVersion: 5.16.0
-    created: "2023-01-10T13:47:01.796511708Z"
+    created: "2023-01-25T09:28:21.866601598Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
-      version: 5.16.0
+      version: 5.19.5
     description: 'A Helm chart for argo-cd. This acts as an umbrella chart. '
-    digest: 4818d7c29f872f30622763c45aa0383815e0a55e8e44409adbc2bba8ec0dd9bd
+    digest: 4cef79a5b35ea4f66a9c8694b5028a98d0d2b171bc41b67ee3d32230921f88a9
     home: https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/argo-cd-app
     icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
     maintainers:
@@ -921,4 +921,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-18T08:52:18.459630203Z"
+generated: "2023-01-25T09:28:21.857928021Z"
