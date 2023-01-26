@@ -386,6 +386,18 @@ entries:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.7-fix-manifests-not-up-to-date.tgz
     version: 0.1.7-fix-manifests-not-up-to-date
   - apiVersion: v2
+    appVersion: feat-342-make-harbor-user-regex-accept-email-addresses
+    created: "2023-01-26T10:24:46.024172771Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: bed65b40b9fdf366343e994fffe8073808d2d3faa901c6f2fc60f24bf70ffc01
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.7-feat-342-make-harbor-user-regex-accept-email-addresses.tgz
+    version: 0.1.7-feat-342-make-harbor-user-regex-accept-email-addresses
+  - apiVersion: v2
     appVersion: feat-240-enable-multi-namespace-support
     created: "2023-01-10T13:47:01.825201981Z"
     description: Helm Chart for the onboarding-operator-app
@@ -959,4 +971,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-25T14:05:22.616530049Z"
+generated: "2023-01-26T10:24:46.023333514Z"
