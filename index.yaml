@@ -810,6 +810,19 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
+  spring-petclinic-cloud-app:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-02-09T22:23:59.254742275Z"
+    description: Helm Chart for the spring-petclinic-cloud-app
+    digest: a64112b2bd87186d3b8fedf25993f753dc41bf5ff69301d2084739ffdd554160
+    name: spring-petclinic-cloud-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/spring-petclinic-cloud
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/spring-petclinic-cloud-app-0.0.1.tgz
+    version: 0.0.1
   tkp-customer-app:
   - apiVersion: v2
     appVersion: 0.1.5
@@ -1002,4 +1015,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-08T11:05:33.181209104Z"
+generated: "2023-02-09T22:23:59.254340489Z"
