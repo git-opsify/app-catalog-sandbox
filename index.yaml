@@ -252,6 +252,17 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/authn-authz-operator-app-0.1.0-bug-wrong-tenant-id.tgz
     version: 0.1.0-bug-wrong-tenant-id
+  envoy-gateway:
+  - apiVersion: v2
+    appVersion: v1.25-latest
+    created: "2023-02-13T21:57:07.487863298Z"
+    description: A Helm chart deploying envoy as a gateway
+    digest: 6ebdd3eec7e45ea89ab2d0a1d27c287f1ff710616677fcc39edf160dab10eb6c
+    name: envoy-gateway
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-sandbox/envoy-gateway-0.1.0.tgz
+    version: 0.1.0
   external-secrets:
   - annotations:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/external-secrets-0.6.0-rc1.tgz-meta/main.yaml
@@ -1015,4 +1026,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-09T22:23:59.254340489Z"
+generated: "2023-02-13T21:57:07.487305057Z"
