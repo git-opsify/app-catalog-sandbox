@@ -285,9 +285,9 @@ entries:
   envoy-gateway-app:
   - apiVersion: v2
     appVersion: v1.25-latest
-    created: "2023-02-13T22:04:25.594810273Z"
+    created: "2023-02-14T21:14:39.745838047Z"
     description: A Helm chart deploying envoy as a gateway
-    digest: 2378e3456d305fc0f4ac9de94408181d289982849cff318e5ae9d0d5a0790607
+    digest: 1cb1ac5b5162b7fa2e4aa47f0db1c1a47089bbad2db8df85eb39a3fa3eca3ad1
     maintainers:
     - name: pgeschinski
     name: envoy-gateway-app
@@ -1058,4 +1058,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-sandbox/tkp-external-secrets-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-14T13:16:21.609304735Z"
+generated: "2023-02-14T21:14:39.744722031Z"
